@@ -1,0 +1,30 @@
+1544205036,,ui,message,    azure-arm: 2018/12/07 17:50:36.606811 INFO Interface [eth0] selected
+1544205037,,ui,say,==> azure-arm: Querying the machine's properties ...
+1544205037,,ui,say,==> azure-arm:  -> ResourceGroupName : 'scs02_packerbld_ne_0'
+1544205037,,ui,say,==> azure-arm:  -> ComputeName       : 'pkrvmpqf6vesx0s'
+1544205038,,ui,say,==> azure-arm:  -> Managed OS Disk   : '/subscriptions/2eec28a4-ec86-4991-8728-9f8fb75bf562/resourceGroups/scs02_packerbld_ne_0/providers/Microsoft.Compute/disks/pkrospqf6vesx0s'
+1544205038,,ui,say,==> azure-arm: Querying the machine's additional disks properties ...
+1544205038,,ui,say,==> azure-arm:  -> ResourceGroupName : 'scs02_packerbld_ne_0'
+1544205038,,ui,say,==> azure-arm:  -> ComputeName       : 'pkrvmpqf6vesx0s'
+1544205038,,ui,say,==> azure-arm: Powering off machine ...
+1544205038,,ui,say,==> azure-arm:  -> ResourceGroupName : 'scs02_packerbld_ne_0'
+1544205038,,ui,say,==> azure-arm:  -> ComputeName       : 'pkrvmpqf6vesx0s'
+1544205098,,ui,say,==> azure-arm: Capturing image ...
+1544205098,,ui,say,==> azure-arm:  -> Compute ResourceGroupName : 'scs02_packerbld_ne_0'
+1544205098,,ui,say,==> azure-arm:  -> Compute Name              : 'pkrvmpqf6vesx0s'
+1544205098,,ui,say,==> azure-arm:  -> Compute Location          : 'eastus2'
+1544205098,,ui,say,==> azure-arm:  -> Image ResourceGroupName   : 'scs02_packerbld_ne_0'
+1544205098,,ui,say,==> azure-arm:  -> Image Name                : 'SPLS-chapi-201812070539'
+1544205098,,ui,say,==> azure-arm:  -> Image Location            : 'eastus2'
+1544205159,,ui,say,==> azure-arm: Deleting resource group ...
+1544205159,,ui,say,==> azure-arm:  -> ResourceGroupName : 'scs02_packerbld_ne_0'
+1544205159,,ui,say,==> azure-arm: \n==> azure-arm: The resource group was not created by Packer%!(PACKER_COMMA) only deleting individual resources ...
+1544205160,,ui,say,==> azure-arm:  -> Microsoft.Compute/virtualMachines : 'pkrvmpqf6vesx0s'
+1544205250,,ui,say,==> azure-arm:  -> Microsoft.Network/networkInterfaces : 'pkrnipqf6vesx0s'
+1544205250,,ui,say,==> azure-arm: Deleting the temporary OS disk ...
+1544205250,,ui,say,==> azure-arm:  -> OS Disk : '/subscriptions/2eec28a4-ec86-4991-8728-9f8fb75bf562/resourceGroups/scs02_packerbld_ne_0/providers/Microsoft.Compute/disks/pkrospqf6vesx0s'
+1544205311,,ui,say,==> azure-arm: Deleting the temporary Additional disk ...
+1544205311,,ui,say,Build 'azure-arm' finished.
+1544205311,,ui,say,\n==> Builds finished. The artifacts of successful builds are:
+1544205311,azure-arm,artifact-count,1
+1544205311,azure-arm,artifact,0,builder-id,Azure.ResourceManagement.VMImage
