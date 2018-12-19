@@ -7,7 +7,11 @@ chapi_nginx_vmss_sku_name     = "Standard_B2S"
 chapi_nginx_lb_ip             = "10.244.126.245"
 
 ## chapi VM scaleset config
+<<<<<<< HEAD
 chapi_vmss_image_name   = "dog"
+=======
+chapi_vmss_image_name   = "SPLS-chapi-201812070539"
+>>>>>>> 918cac89f6febdb8c7c868f27423e04bf0096d3d
 chapi_vmss_image_rg     = "scs02_packerbld_ne_0"
 chapi_vmss_min_size     = "1"
 chapi_vmss_default_size = "1"
